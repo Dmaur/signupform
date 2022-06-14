@@ -1,6 +1,45 @@
-#skrink {
-    color: blue;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(/fonts/PermanentMarker-Regular.ttf);
+}
+
+#imgContainer {
+    height: 100vh;
+    width: 35vw;
+}
+
+#stairs {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 325px;
     height: 100px;
-    width: 75px;
-    background-color: brown;
+    width: 35vw;
+    background-color: rgb(238, 215, 186, .5);
+}
+
+#stairsLogo {
+    width: 80px;
+    height:80px;
+   align-self: center;
+}
+
+#logoText{
+    font-family: titleFont;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 60px;
+    
 }
